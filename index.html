@@ -3,199 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
+    <title>Car Renting Website</title>
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    
-   <!-- vehical selection -->
-<section class="vehical" id="vehicals">
+    <header>
+        <div class="sitelogo">
+           <img src="teslalogo.png" alt="carlogo">
+        </div>
 
-   <h1 class="heading"> Popular <span>Vehicals</span></h1>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#ride">Ride</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
 
-   <div class="slider">
-      <div class="wrapper">
+        <div class="header-btn">
+           <img src="pngwing.com.png" alt="logging icon">
+        </div>
+
           
-        
-         <i class="fa-solid fa-angle-left preNext" id="preBtn"></i>
-         <div class="wrapper-box">
-            <div class="box">
-               <img src="R.png" alt="vehical1" width="300px">
-                 <div class="content">
-                  <h3>new model</h3>
-                  <div class="price">price: <span>Rs 120000</span></div>
-                  <p>
-                     new
-                     <i class="fa-solid fa-circle"></i>2023
-                     <i class="fa-solid fa-circle"></i>automatic
-                     <i class="fa-solid fa-circle"></i>petrol
-                     <i class="fa-solid fa-circle"></i>180kmh
+    </header>
 
-                  </p>
+    <div class="topic">
+        <h1 style=" font-style: italic;">Hit the Road with a Rental</h1>
+       <p> from 100000</p>
+     
+    </div>
 
-                <button style="background-color: yellow; text-decoration: none; width: 100px;"> <a href="#" class="btn" > Check Out</a> </button> 
-                 </div>
-            </div>
+    //text
 
-            <div class="box">
-               <img src="r8.png" alt="vehical1" width="1000px">
-                 <div class="content">
-                  <h3>new model</h3>
-                  <div class="price">price: <span>Rs 120000</span></div>
-                  <p>
-                     new
-                     <i class="fa-solid fa-circle"></i>2023
-                     <i class="fa-solid fa-circle"></i>automatic
-                     <i class="fa-solid fa-circle"></i>petrol
-                     <i class="fa-solid fa-circle"></i>180kmh
-
-                  </p>
-
-                  <a href="#" class="btn"> Check Out</a>
-                 </div>
-            </div>
-
-            <div class="box">
-               <img src="R3.jpg" alt="vehical1" width="1000px">
-                 <div class="content">
-                  <h3>new model</h3>
-                  <div class="price">price: <span>Rs 120000</span></div>
-                  <p>
-                     new
-                     <i class="fa-solid fa-circle"></i>2023
-                     <i class="fa-solid fa-circle"></i>automatic
-                     <i class="fa-solid fa-circle"></i>petrol
-                     <i class="fa-solid fa-circle"></i>180kmh
-
-                  </p>
-
-                  <a href="#" class="btn"> Check Out</a>
-                 </div>
-            </div>
-
-            <div class="box">
-               <img src="r4.jpeg" alt="vehical1" width="1000px">
-                 <div class="content">
-                  <h3>new model</h3>
-                  <div class="price">price: <span>Rs 120000</span></div>
-                  <p>
-                     new
-                     <i class="fa-solid fa-circle"></i>2023
-                     <i class="fa-solid fa-circle"></i>automatic
-                     <i class="fa-solid fa-circle"></i>petrol
-                     <i class="fa-solid fa-circle"></i>180kmh
-
-                  </p>
-
-                  <a href="#" class="btn"> Check Out</a>
-                 </div>
-            </div>
-
-            <div class="box">
-               <img src="r5.jpeg" alt="vehical1" width="1000px">
-                 <div class="content">
-                  <h3>new model</h3>
-                  <div class="price">price: <span>Rs 120000</span></div>
-                  <p>
-                     new
-                     <i class="fa-solid fa-circle"></i>2023
-                     <i class="fa-solid fa-circle"></i>automatic
-                     <i class="fa-solid fa-circle"></i>petrol
-                     <i class="fa-solid fa-circle"></i>180kmh
-
-                  </p>
-
-                  <a href="#" class="btn"> Check Out</a>
-                 </div>
-            </div>
-
-            <div class="box">
-               <img src="r7.jpg" alt="vehical1" width="1000px">
-                 <div class="content">
-                  <h3>new model</h3>
-                  <div class="price">price: <span>Rs 120000</span></div>
-                  <p>
-                     new
-                     <i class="fa-solid fa-circle"></i>2023
-                     <i class="fa-solid fa-circle"></i>automatic
-                     <i class="fa-solid fa-circle"></i>petrol
-                     <i class="fa-solid fa-circle"></i>180kmh
-
-                  </p>
-
-                  <a href="#" class="btn"> Check Out</a>
-                 </div>
-            </div>
-
-            <div class="box">
-               <img src="R2.jpeg" alt="vehical1" width="1000px">
-                 <div class="content">
-                  <h3>new model</h3>
-                  <div class="price">price: <span>Rs 120000</span></div>
-                  <p>
-                     new
-                     <i class="fa-solid fa-circle"></i>2023
-                     <i class="fa-solid fa-circle"></i>automatic
-                     <i class="fa-solid fa-circle"></i>petrol
-                     <i class="fa-solid fa-circle"></i>180kmh
-
-                  </p>
-
-                  <a href="#" class="btn"> Check Out</a>
-                 </div>
-            </div>
-
-            <div class="box">
-               <img src="r11.jpg" alt="vehical1" width="1000px">
-                 <div class="content">
-                  <h3>new model</h3>
-                  <div class="price">price: <span>Rs 120000</span></div>
-                  <p>
-                     new
-                     <i class="fa-solid fa-circle"></i>2023
-                     <i class="fa-solid fa-circle"></i>automatic
-                     <i class="fa-solid fa-circle"></i>petrol
-                     <i class="fa-solid fa-circle"></i>180kmh
-
-                  </p>
-
-                  <a href="#" class="btn"> Check Out</a>
-                 </div>
-            </div>
-         </div>
+    
 
 
-         <i class="fa-solid fa-angle-right preNext" id="nextBtn"></i>
-
-      </div>
-
-      
-      <div class="activecricle">
-         <div class="fa-regular fa-solid fa-circle"></div>
-         <div class="fa-regular fa-circle"></div>
-         <div class="fa-regular fa-circle"></div>
-         <div class="fa-regular fa-circle"></div>
-         <div class="fa-regular fa-circle"></div>
-         <div class="fa-regular fa-circle"></div>
-         <div class="fa-regular fa-circle"></div>
-         <div class="fa-regular fa-circle"></div>
-
-
-         
-      </div>
-
-
-   </div>
-
-
-
-
-
-</section>
-
-
-<script src="index.js"></script>
+    <script src="main.js"></script>
+    
 </body>
 </html>
