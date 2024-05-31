@@ -6,7 +6,7 @@
 
 }
 body{
-    background-image: url(bg\ pic\ 3.jpg);
+    background-image: url(../bg\ pic\ 3.jpg);
     background-size: cover;
     background-position: center;
 }
